@@ -25,7 +25,7 @@ print(dt_byte)
 #Long data types are just "long integers". An integer only has 4 bytes, and longs have 8 bytes. You'd only use long if you really need a BIG ASS number. Python seems smart enough to auto turn ints into longs.
 dt_int = 26
 dt_long = 3000000000
-print(dt_int)
+print(int(3000000000))
 print(dt_long)
 #Arrays are building blocks in coding. They're used to store groups of information. It can break 3d, (1d, 2d, 3d, ect). Arrays have addresses as well called "index".
 dt_array = [42, 21, 97, 69] #An array of integers
